@@ -7,7 +7,6 @@ import 'package:marketApp/DartFiles/HomeScreen.dart';
 import 'package:marketApp/provider/userProvider.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'DartFiles/auth_screen.dart';
 import 'SellerFiles/addProduct.dart';
 
