@@ -318,7 +318,7 @@ class _AuthFormState extends State<AuthForm> {
                             if (result != null) {
                               SharedPreferences pref=await  SharedPreferences.getInstance();
                               pref.setString('email', _email);
-                              pref.setString('pass', _password);
+                              
                               pref.setString('uid', FirebaseAuth.instance.currentUser.uid.toString());
                               myProv.setUserId=pref.getString('uid');
                               _onLoading();
@@ -371,7 +371,7 @@ class _AuthFormState extends State<AuthForm> {
                             }
                             SharedPreferences pref=await  SharedPreferences.getInstance();
                             pref.setString('email', _email);
-                            // pref.setString('pass', _password);
+                             
                             pref.setString('uid', FirebaseAuth.instance.currentUser.uid.toString());
                             myProv.setUserId=pref.getString('uid');
 
