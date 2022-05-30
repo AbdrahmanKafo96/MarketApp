@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564179168299",
+    "project_id": "market-app-4500a",
+    "storage_bucket": "market-app-4500a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564179168299:android:310f0cae66946eaa864e6e",
+        "android_client_info": {
+          "package_name": "com.almahel.marketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564179168299-lv75sspvl4d7tuvofnup2u0d2e2bm95c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALrvIPvpdImdJxdPBVERNnYJ8xbSQqsf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564179168299-lv75sspvl4d7tuvofnup2u0d2e2bm95c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
